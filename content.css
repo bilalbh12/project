@@ -1,0 +1,119 @@
+body{
+    background:url(laptop.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+img.nadiss{
+    width: 7cm;
+    height: 2cm;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+img{
+    width: 70px;
+    height: 50px;
+}
+
+h1{
+    color: black;
+    font-size: 35px;
+    position: absolute;
+    top: 1cm;
+    left: 15cm;
+    font-family: arial;
+    border: 2px solid black;
+    border-radius: 7px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.473);
+}
+
+.info{
+    position: absolute;
+    top: 4cm;
+    left:2cm;
+    font-size: 30px;
+    font-family: arial;
+    width: 30cm;
+}
+
+div{
+    border: 2px solid black;
+    border-radius: 7px;
+    width: 8cm;
+    height: 11cm;
+    padding: 20px;
+    font-size: 20px;
+    margin-top: 1cm;
+    font-family: arial;
+}
+
+div:hover{
+    background-color: rgba(255, 0, 0, 0.473);
+}
+
+.application{
+    position: absolute;
+    top: 10cm;
+    left: 2cm;
+}
+
+.integ{
+    position: absolute;
+    top: 10cm;
+    left: 12cm;
+}
+
+.marketing{
+    position: absolute;
+    top: 10cm;
+    left: 22cm;
+}
+
+.Community{
+    position: absolute;
+    top: 24cm;
+    left: 4cm;
+}
+
+.site{
+    position: absolute;
+    top: 24cm;
+    left: 16cm;
+}
+
+a{
+    color: red;
+    text-decoration: none;
+    font-size: 30px;
+    
+}
+
+span{
+    position: absolute;
+    top: 38cm;
+    left: 2cm;
+    font-size: 30px;
+    font-family: arial;
+}
+
+.contacte{
+    position:absolute;
+    top: 39cm;
+    left: 12cm;
+    width: 240px;
+    height: 40px;
+    text-align: center;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.781);
+    color: red;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+.contacte:hover{
+    background-color: rgba(255, 0, 0, 0.781);
+    color: black;
+}
