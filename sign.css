@@ -1,0 +1,62 @@
+body{
+    background: url(1.jpg);
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.txt{
+    font-size:20px;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    margin-left: 2cm;
+}
+
+form{
+    background-color: rgba(0, 0, 0, 0.76);
+    width: 21cm;
+    height: 8cm;
+    text-align: center;
+    color: white;
+    padding-top:1cm;
+    position: absolute; top: 5cm; left: 7cm;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+input{
+    height: 20px;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid red;
+    color: white;
+    margin-bottom:20px;
+}
+
+input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: rgba(255, 255, 255, 0.63);
+    font-size: 15px;
+}
+
+button{
+    text-align: center;
+    font-size: large;
+    width: 150px;
+    height: 30px;
+    margin-top: 15px;
+    color: red;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover{
+    color: white;
+    background-color: red;
+}
